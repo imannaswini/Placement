@@ -21,13 +21,16 @@ Enter the number of litres consumed: 550
 **Output:**
 Total Water Bill: ₹900.0 */
 package day1.ConditionalStatements;
+import java.util.*;
 public class Litres
 {
     public static void main(String[] args)
     {
-        int litresConsumed = 550; // Example input
+        Scanner sc= new Scanner(System.in);
+        double litresConsumed = sc.nextDouble();
+        // int litres = 550; // Example input
         double totalBill = 0.0;
-
+        
         if (litresConsumed <= 100) {
             totalBill = litresConsumed * 2.0;
         } else if (litresConsumed <= 500) {
@@ -36,7 +39,7 @@ public class Litres
             totalBill = (100 * 2.0) + (400 * 1.5) + ((litresConsumed - 500) * 1.0);
         }
 
-        System.out.println("Total Water Bill: ₹" + totalBill);
-        
+        System.out.println("Total Water Bill: " + totalBill);
+        sc.close();
     }
 }
