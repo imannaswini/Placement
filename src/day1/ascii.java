@@ -1,17 +1,22 @@
+/*  Ritik is working on a science project where he wants to build a magic board. This board should display a corresponding character for a given number input. However, Ritik wants the program to convert exactly four numbers into their respective ASCII characters without using any loops or iteration. Your task is to help Ritik develop this application.
+
+**Sample Input 1:**
+// Enter the digits:
+65
+66
+67
+68
+
+**Sample Output 1:**
+65-A
+66-B
+67-C
+68-D*/
 package day1;
 import java.util.*;
 public class Ascii 
 {    public static void main(String[] args) 
     {
-    //    int n;
-    //     Scanner sc=new Scanner(System.in);
-    //     System.out.println("Enter a digit:");
-    //     for(int i=1;i<=5;i++)
-    //     {
-    //         n = sc.nextInt();
-    //         char c = (char) n;
-    //         System.out.println( n + "- " + c);
-    //     }
      Scanner sc = new Scanner(System.in);
 
         System.out.println("Sample Input 1:");
