@@ -11,7 +11,7 @@ public class MinTrave
         int v2=sc.nextInt();
         double st=(Math.sqrt(2)*n)/v1;
         double et =(2*n)/v2;
-        if(et<st)
+        if(et>=st)
         {
             System.out.println("Elevator");
         }
