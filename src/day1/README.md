@@ -71,6 +71,7 @@ We used terminal commands to compile and execute our programs:
 javac Ascii.java
 javac Cricket.java
 javac Newspaper.java
+javac Digisum.java
 ```
 
 ### Run the programs:
@@ -78,6 +79,7 @@ javac Newspaper.java
 java Ascii
 java Cricket
 java Newspaper.java
+java Digisum.java
 ```
 
 > **Note:** We do not include `.java` or `.class` extensions when running the program.
