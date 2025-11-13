@@ -1,81 +1,86 @@
-Day 1: Introduction to Java & Environment Setup
+# Day 1: Introduction to Java & Environment Setup
 
-This log documents the initial setup of the Java development environment on Day 1.
+## Overview
+This session focused on setting up the Java development environment and running our first basic Java programs.
 
-Today's Goals
+## Today's Goals
+- Get an introduction to the Java programming language.  
+- Install the Java Development Kit (JDK).  
+- Configure system environment variables for Java.  
+- Set up a simple Java project in Visual Studio Code.  
+- Create, compile, and run the first Java programs.
 
-Get a brief introduction to the Java programming language.
+---
 
-Install the Java Development Kit (JDK).
+## 1. Java Introduction
+We learned that **Java** is a **high-level, class-based, object-oriented programming language** designed to be platform-independent.  
+Its main principle is **“Write Once, Run Anywhere (WORA)”**, meaning compiled Java programs can run on any system with a Java Virtual Machine (JVM).
 
-Configure system environment variables for Java.
+---
 
-Set up a simple Java project in Visual Studio Code.
+## 2. JDK Installation & Environment Setup
+To start coding in Java, we installed the **Java Development Kit (JDK)**, which provides the compiler (`javac`) and runtime (`java`) tools.
 
-Create, compile, and run our first programs.
+### Steps:
+1. **JDK Installation:** Downloaded and installed the appropriate JDK (e.g., Oracle JDK or OpenJDK).  
+2. **Environment Variables Configuration:**  
+   - **JAVA_HOME:** Created a variable pointing to the JDK installation folder (e.g.,  
+     `C:\Program Files\Java\jdk-21`).  
+   - **Path Variable:** Added `%JAVA_HOME%\bin` to the system `Path` to make Java commands available globally.  
 
-1. Java Introduction
+After setup, running `java -version` and `javac -version` in the terminal confirmed a successful installation.
 
-Today, we were introduced to Java, a high-level, class-based, object-oriented programming language. The goal is to write code that can "write once, run anywhere" (WORA).
+---
 
-2. JDK & Environment Path Setup
+## 3. Setting Up a Java Project in VS Code
+We used **Visual Studio Code** as the code editor and installed the **“Extension Pack for Java”** to enable Java language support, debugging, and project management.
 
-To start writing and running Java code, we needed the Java Development Kit (JDK).
+### Steps:
+1. Opened the Command Palette (**Ctrl + Shift + P**).  
+2. Selected **“Java: Create Java Project…”**.  
+3. Chose **“No build tools”** (for a simple project).  
+4. Selected the desired folder location.  
+5. Named the project **`java`**.
 
-JDK Installation: Downloaded and installed the appropriate JDK (e.g., from Oracle, OpenJDK).
+This created a folder structure with:
+- `src/` → Source code folder  
+- `lib/` → For libraries (if needed later)
 
-Environment Variable Setup: To allow the command line and other tools to find the Java compiler (javac) and runtime (java), we configured the system's environment variables.
+---
 
-JAVA_HOME: Created a new variable pointing to the root directory of the JDK installation (e.g., C:\Program Files\Java\jdk-21).
+## 4. Writing the First Programs
+Inside VS Code:
+1. Opened the integrated terminal.  
+2. Navigated to the source folder:  
+   ```bash
+   cd src
+   mkdir day1
+   cd day1
+   ```
+3. Created and wrote two Java programs:  
+   - **Ascii.java** — to display ASCII values.  
+   - **Cricket.java** — a small program based on the given problem.
 
-Path: Edited the Path variable to include the JDK's bin directory (e.g., %JAVA_HOME%\bin).
+---
 
-3. VS Code Project Setup (No Build Tools)
+## 5. Compiling and Running Java Programs
+We used terminal commands to compile and execute our programs:
 
-We used Visual Studio Code as our code editor. We also installed the "Extension Pack for Java" from the VS Code Marketplace to get language support, debugging, and project management features.
-
-To create our first project:
-
-Opened the Command Palette using the shortcut Ctrl+Shift+P.
-
-Typed and selected "Java: Create Java Project...".
-
-When prompted for a build tool, we selected "No build tools".
-
-We then chose a folder location for our project.
-
-Finally, we named the project java.
-
-This created a simple folder structure with a src directory for our source code and a lib directory for any future libraries.
-
-4. Creating First Programs
-
-With the project folder open in VS Code, we used the integrated terminal to organize our code:
-
-Navigated into the source folder: cd src
-
-Created a new directory for the day's work: mkdir day1
-
-Entered the new directory: cd day1
-
-Wrote the logic for our first Java files, Ascii.java and Cricket.java, based on the problems we were given.
-
-5. Compiling and Running
-
-After writing the code, we used the terminal (still inside the src/day1 directory) to compile and run our programs:
-
-Compile: We used the Java compiler, javac, to create the .class (bytecode) file.
-
+### Compile the code:
+```bash
 javac Ascii.java
 javac Cricket.java
+```
 
-
-Run: We used the Java runtime, java, to execute the compiled bytecode. (Note: We don't add the .java or .class extension here).
-
+### Run the programs:
+```bash
 java Ascii
 java Cricket
+```
 
+> **Note:** We do not include `.java` or `.class` extensions when running the program.
 
-Next Steps
+---
 
-With the basic setup and workflow established, we are ready to move on to more complex Java concepts.
+## Next Steps
+With the environment and workflow successfully set up, the next step is to explore **core Java concepts** such as data types, control statements, input/output handling, and basic problem-solving using Java.
