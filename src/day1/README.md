@@ -70,12 +70,14 @@ We used terminal commands to compile and execute our programs:
 ```bash
 javac Ascii.java
 javac Cricket.java
+javac Newspaper.java
 ```
 
 ### Run the programs:
 ```bash
 java Ascii
 java Cricket
+java Newspaper.java
 ```
 
 > **Note:** We do not include `.java` or `.class` extensions when running the program.
