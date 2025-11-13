@@ -1,6 +1,6 @@
 package day1;
 import java.util.*;
-public class ascii 
+public class Ascii 
 {    public static void main(String[] args) 
     {
     //    int n;
@@ -26,7 +26,7 @@ public class ascii
         System.out.println(n1 + "-" + (char)n1);
         System.out.println(n2 + "-" + (char)n2);
         System.out.println(n3 + "-" + (char)n3);
-        System.out.println(n4 + "-" + (char)n4);
+        System.out.println(n4 + "-" + (char)n4); //Type casting from int to char
         
 }
 }
