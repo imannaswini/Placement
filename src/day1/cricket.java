@@ -16,13 +16,12 @@ public class cricket
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the length:");
+        System.out.println("Sample Input");
         int length = sc.nextInt();
-        System.out.println("Enter the width:");
         int width = sc.nextInt();
         int perimeter = 2 * (length + width);
         int area = length * width;
-        System.out.println("Sample Output 1:");
+        System.out.println("Sample Output:");
         System.out.println(perimeter);
         System.out.println(area);
         
