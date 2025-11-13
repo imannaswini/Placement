@@ -12,7 +12,7 @@
 66-B
 67-C
 68-D*/
-package day1;
+package day1.Introduction;
 import java.util.*;
 public class Ascii 
 {    public static void main(String[] args) 

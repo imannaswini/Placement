@@ -21,7 +21,7 @@ Can you please help them out by writing a program to compute the profit if w, x,
 **SAMPLE OUTPUT:**
 900 */
 
-package day1;
+package day1.Introduction;
 import java.util.*;
 public class newspaper
 {
@@ -36,7 +36,7 @@ public class newspaper
         int revenue = w * x; // total revenue
         int cost = (w * y) + 100; // total cost including fixed cost
         int profit = revenue - cost; // profit calculation
-
+        //int profit=(w*x)-(w*y)-100;
         System.out.println("\nSAMPLE OUTPUT:");
         System.out.println(profit);
     }

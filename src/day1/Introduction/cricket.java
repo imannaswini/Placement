@@ -9,7 +9,7 @@ There was a large ground in the centre of the city which is rectangular in shape
 **Sample Output:**
 140
 1000 */
-package day1;
+package day1.Introduction;
 import java.util.*;
 public class cricket 
 {

@@ -1,4 +1,4 @@
-package day1;
+package day1.Introduction;
 import java.util.*;
 public class Digisum 
 {
