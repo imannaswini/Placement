@@ -28,18 +28,34 @@ public class Squiz
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        if(n<=10)
+        // if(n<=10)
+        // {
+        //     System.out.println("Invalid Input");
+        // }
+        // else
+        // {
+        //     String str=Integer.toString(n);
+        //     int firstDigit=Character.getNumericValue(str.charAt(0));
+        //     int lastDigit=Character.getNumericValue(str.charAt(str.length()-1));
+        //     int absDiff=Math.abs(firstDigit-lastDigit);
+        //     System.out.println(absDiff);
+        // }
+        if(n<10)
         {
             System.out.println("Invalid Input");
         }
         else
         {
-            String str=Integer.toString(n);
-            int firstDigit=Character.getNumericValue(str.charAt(0));
-            int lastDigit=Character.getNumericValue(str.charAt(str.length()-1));
+            int lastDigit=n%10;
+            int firstDigit=n;
+            while(firstDigit>=10)
+            {
+                firstDigit=firstDigit/10;
+            }
             int absDiff=Math.abs(firstDigit-lastDigit);
             System.out.println(absDiff);
         }
+
 
         
     }
