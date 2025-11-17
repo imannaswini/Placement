@@ -12,7 +12,7 @@ abstract class Account {
     double balance;
     LocalDate startDate;
 
-    public Account(String name, String number, double balance, LocalDate startDate) {
+    Account(String name, String number, double balance, LocalDate startDate) {
         this.name = name;
         this.number = number;
         this.balance = balance;
