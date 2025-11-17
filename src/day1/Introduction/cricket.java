@@ -24,7 +24,7 @@ public class cricket
         System.out.println("Sample Output:");
         System.out.println(perimeter);
         System.out.println(area);
-        
+        sc.close();
 
 
 

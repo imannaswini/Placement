@@ -32,6 +32,7 @@ public class Ascii
         System.out.println(n2 + "-" + (char)n2);
         System.out.println(n3 + "-" + (char)n3);
         System.out.println(n4 + "-" + (char)n4); //Type casting from int to char
+        sc.close();
         
 }
 }

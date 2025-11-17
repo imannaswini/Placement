@@ -79,7 +79,7 @@ javac Digisum.java
 java Ascii
 java Cricket
 java Newspaper.java
-java Digisum.java
+javaConditionalStatements/Litres.javaConditionalStatements/Litres.java Digisum.java
 ```
 
 > **Note:** We do not include `.java` or `.class` extensions when running the program.

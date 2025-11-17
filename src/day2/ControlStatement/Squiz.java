@@ -54,9 +54,7 @@ public class Squiz
             }
             int absDiff=Math.abs(firstDigit-lastDigit);
             System.out.println(absDiff);
-        }
-
-
-        
+            sc.close();
+        } 
     }
 }
